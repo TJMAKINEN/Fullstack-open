@@ -7,7 +7,7 @@
     "start": "node index.js",
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:ui": "rm -rf build && cd C:/Users/Tuomas Mäkinen/Documents/FSO/2/puhelinluettelo && npm run build && cp -r build ../3.8",
+    "build:ui": "rm -rf build && cd C:/Users/Tuomas Mäkinen/Documents/FSO/2/puhelinluettelo && npm run build && cp -r build 'C:Users\\Tuomas Mäkinen\\Documents\\FSO\\3\\3.8'",
     "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && git push"
   },
   
